@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
+{% block content %}
+  <article>
+    <h2>{{ article.title }}</h2>
+    <p class="post-meta">
+      Published: {{ article.locale_date }} | Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+    </p>
+    <div class="entry-content">
+      {{ article.content }}
+    </div>
+  </article>
+{% endblock %}

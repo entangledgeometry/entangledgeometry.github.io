@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+
+  <!-- MathJax Configuration -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+  <!-- Centered Site Title and Kummer Quartic Image -->
+  <header class="site-header">
+    <h1 class="site-title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+    <div class="header-image-container">
+      <img src="{{ SITEURL }}/images/kummer.png" alt="Kummer Quartic Surface" class="header-img">
+    </div>
+  </header>
+
+  <div class="site-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="site-sidebar">
+      <nav class="sidebar-nav">
+        <h3>Navigation</h3>
+        <ul>
+          {% for title, link in MENUITEMS %}
+            <li><a href="{{ SITEURL }}{{ link }}">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="site-main">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; {{ AUTHOR }} &middot; Powered by Pelican</p>
+  </footer>
+
+</body>
+</html>

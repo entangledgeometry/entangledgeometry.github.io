@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Recent Posts</h2>
+  <ul class="post-list">
+    {% for article in articles_page.object_list %}
+      <li>
+        <span class="post-date">{{ article.date.strftime('%Y-%m-%d') }}</span>
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+        <span class="post-cat">({{ article.category }})</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if articles_page.has_other_pages() %}
+    <div style="margin-top: 2rem;">
+      {% if articles_page.has_previous() %}
+        <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&laquo; Newer</a>
+      {% endif %}
+      {% if articles_page.has_next() %}
+        <a href="{{ SITEURL }}/{{ articles_next_page.url }}" style="margin-left: 1rem;">Older &raquo;</a>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}

@@ -1,2 +1,0 @@
-# entangledgeometry.github.io
-
