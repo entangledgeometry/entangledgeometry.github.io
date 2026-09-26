@@ -78,3 +78,16 @@ github: publish
 
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github
+
+
+deploy:
+	@echo "==> Staging and committing source changes..."
+	git add .
+	-git commit -m "Update site content and source"
+	git push origin main
+	@echo "==> Building production HTML..."
+	pelican content -s publishconf.py
+	@echo "==> Publishing to gh-pages branch..."
+	ghp-import -m "Publish site update" -b gh-pages output
+	git push origin gh-pages
+	@echo "==> Site successfully deployed!"
