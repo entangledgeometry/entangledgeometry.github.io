@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Entangled Geometry - Math</title><link href="https://entangledgeometry.github.io/" rel="alternate"/><link href="https://entangledgeometry.github.io/feeds/math.atom.xml" rel="self"/><id>https://entangledgeometry.github.io/</id><updated>2026-09-25T00:00:00+05:30</updated><entry><title>Cyclic Quadrilaterals and Ptolemy's Theorem</title><link href="https://entangledgeometry.github.io/cyclic-quadrilaterals-and-ptolemys-theorem.html" rel="alternate"/><published>2026-09-25T00:00:00+05:30</published><updated>2026-09-25T00:00:00+05:30</updated><author><name>manish kumar</name></author><id>tag:entangledgeometry.github.io,2026-09-25:/cyclic-quadrilaterals-and-ptolemys-theorem.html</id><summary type="html">&lt;p&gt;Here is a short note on cyclic quadrilaterals.&lt;/p&gt;
+&lt;div class="theorem"&gt;
+&lt;span class="theorem-title"&gt;Theorem (Ptolemy).&lt;/span&gt;
+For any cyclic quadrilateral with vertices $A, B, C, D$ in order:
+$$AC \cdot BD = AB \cdot CD + BC \cdot DA$$
+&lt;/div&gt;
+
+&lt;div class="proof"&gt;
+The proof follows from constructing a point $E$ on $AC$ such that $\angle ABE = \angle DBC$ and using similar …&lt;/div&gt;</summary><content type="html">&lt;p&gt;Here is a short note on cyclic quadrilaterals.&lt;/p&gt;
+&lt;div class="theorem"&gt;
+&lt;span class="theorem-title"&gt;Theorem (Ptolemy).&lt;/span&gt;
+For any cyclic quadrilateral with vertices $A, B, C, D$ in order:
+$$AC \cdot BD = AB \cdot CD + BC \cdot DA$$
+&lt;/div&gt;
+
+&lt;div class="proof"&gt;
+The proof follows from constructing a point $E$ on $AC$ such that $\angle ABE = \angle DBC$ and using similar triangles.
+&lt;/div&gt;</content><category term="Math"/><category term="geometry"/><category term="olympiad"/></entry><entry><title>Desargues' Theorem and Projective Planes</title><link href="https://entangledgeometry.github.io/desargues-theorem-and-projective-planes.html" rel="alternate"/><published>2026-09-25T00:00:00+05:30</published><updated>2026-09-25T00:00:00+05:30</updated><author><name>manish kumar</name></author><id>tag:entangledgeometry.github.io,2026-09-25:/desargues-theorem-and-projective-planes.html</id><summary type="html">&lt;p&gt;In projective geometry, two triangles are in perspective axially if and only if they are in perspective centrally.&lt;/p&gt;
+&lt;p&gt;Let the two triangles be $\triangle ABC$ and $\triangle A'B'C'$. If the lines $AA'$, $BB'$, and $CC'$ concur at a center $O$:&lt;/p&gt;
+&lt;p&gt;$$P = BC \cap B'C', \quad Q = CA \cap C'A', \quad …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In projective geometry, two triangles are in perspective axially if and only if they are in perspective centrally.&lt;/p&gt;
+&lt;p&gt;Let the two triangles be $\triangle ABC$ and $\triangle A'B'C'$. If the lines $AA'$, $BB'$, and $CC'$ concur at a center $O$:&lt;/p&gt;
+&lt;p&gt;$$P = BC \cap B'C', \quad Q = CA \cap C'A', \quad R = AB \cap A'B'$$&lt;/p&gt;
+&lt;p&gt;Then $P$, $Q$, and $R$ lie on a common line (the axis of perspectivity).&lt;/p&gt;</content><category term="Math"/><category term="geometry"/><category term="olympiad"/></entry><entry><title>Ubiquity of Gerbes as Obstruction to existence of Objects</title><link href="https://entangledgeometry.github.io/ubiquity-of-gerbes-as-obstruction-to-existence-of-objects.html" rel="alternate"/><published>2026-09-25T00:00:00+05:30</published><updated>2026-09-25T00:00:00+05:30</updated><author><name>manish kumar</name></author><id>tag:entangledgeometry.github.io,2026-09-25:/ubiquity-of-gerbes-as-obstruction-to-existence-of-objects.html</id><content type="html">&lt;p&gt;I will start with certains situation where existence of geometric object is obstructed by nontriviality of Gerbes.&lt;/p&gt;</content><category term="Math"/></entry></feed>
