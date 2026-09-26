@@ -31,9 +31,9 @@ body {
 }
 
 .site-title {
-  font-size: 2.3rem;
-  margin: 0 0 0.75rem 0;
-  letter-spacing: 0.5px;
+  font-size: 1.6rem;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 0.3px;
 }
 
 .site-title a {
@@ -55,25 +55,25 @@ body {
 /* Two-Column Grid Layout */
 .site-layout {
   display: flex;
-  gap: 40px;
+  gap: 28px;
   align-items: flex-start;
 }
 
 /* Sidebar */
 .site-sidebar {
-  width: 180px;
+  width: 140px;
   flex-shrink: 0;
   border-right: 1px solid var(--border-color);
-  padding-right: 20px;
+  padding-right: 14px;
 }
 
 .site-sidebar h3 {
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   margin-top: 0;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
   color: var(--accent-blue);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
 }
 
 .sidebar-nav ul {
@@ -83,13 +83,13 @@ body {
 }
 
 .sidebar-nav li {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.35rem;
 }
 
 .sidebar-nav a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
 }
 
 .sidebar-nav a:hover, a:hover {
